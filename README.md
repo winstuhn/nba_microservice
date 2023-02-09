@@ -20,6 +20,7 @@ Instructions on how to request data from the service:
         NOTE: there is no error-checking for the year, so it must be a valid year.
         
     example requests and responses:
+    
     g ['Draymond Green']
     
     g,s ['Draymond Green', '2013']
