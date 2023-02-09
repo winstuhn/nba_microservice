@@ -11,15 +11,10 @@ Instructions on how to request data from the service:
 3. Write a request using flags. The flags must be comma-seperated and lower-case in this order:
 
     g,s,e,p,XXXX
-    
     g (required) = generates a random NBA or ABA player name
-   
     s (optional) = adds the date player first played in the league to the response
-    
     e (optional) = adds the date player last played in the league to the response
-    
     p (optional) = adds position of the player to the response
-    
     XXXX (optional) = adds a filter, filters for players that played in that specific year
     
         NOTE: there is no error-checking for the year, so it must be a valid year.
