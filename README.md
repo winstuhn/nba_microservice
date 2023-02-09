@@ -13,7 +13,7 @@ Instructions on how to request data from the service:
     g,s,e,p,XXXX
     
     g (required) = generates a random NBA or ABA player name
-    
+   
     s (optional) = adds the date player first played in the league to the response
     
     e (optional) = adds the date player last played in the league to the response
@@ -26,9 +26,13 @@ Instructions on how to request data from the service:
         
     example requests and responses:
     g ['Draymond Green']
+    
     g,s ['Draymond Green', '2013']
+    
     g,s,e ['Draymond Green', '2013', '2023']
+    
     g,s,e,p ['Draymond Green', '2013', '2023', 'F']
+    
     g,s,e,p,2020 ['Draymond Green', '2013', '2023', 'F']
 
 4. Response will be made to the same text file: generate_player.txt
