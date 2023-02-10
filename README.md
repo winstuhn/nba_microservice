@@ -34,3 +34,6 @@ Instructions on how to request data from the service:
 4. Response will be made to the same text file: generate_player.txt
     - Responses will be made as comma-seperated lists
 
+Here's the UML Diagram
+![image](https://user-images.githubusercontent.com/95652335/217966380-37fc0549-957f-4776-a747-602881a29c5b.png)
+
