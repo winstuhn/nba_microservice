@@ -34,15 +34,11 @@ def generate_all_players():
         # Iterate and find any data in a table
         for a in soup.findAll('tr'):
             
-            player = a.find(attrs={'data-stat':'player'}).get_text()     # Scrapes player name
-            start = a.find(attrs={'data-stat':'year_min'}).get_text()    # Scrapes date of first NBA game
-            end = a.find(attrs={'data-stat':'year_max'}).get_text()      # Scrapes data of last NBA game
-            pos = a.find(attrs={'data-stat':'pos'}).get_text()           # Scrapes player position
-
-            players.append(player)
-            starts.append(start)
-            ends.append(end)
-            poss.append(pos)
+            # Scrape data, and add to list
+            players.append(a.find(attrs={'data-stat':'player'}).get_text())         # Scrapes player name
+            starts.append(a.find(attrs={'data-stat':'year_min'}).get_text())        # Scrapes date of first NBA game
+            ends.append(a.find(attrs={'data-stat':'year_max'}).get_text())          # Scrapes data of last NBA game
+            poss.append(a.find(attrs={'data-stat':'pos'}).get_text())               # Scrapes player position
 
     # Add newfound data to CSV
     df = pd.DataFrame({'Player Name':players,'Start year':starts,'End year':ends, 'Position':poss}) 
