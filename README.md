@@ -38,3 +38,5 @@ Here's the UML Diagram:
 
 ![image](https://user-images.githubusercontent.com/95652335/217966380-37fc0549-957f-4776-a747-602881a29c5b.png)
 
+Also, added my script for scraping data, incase you need it.
+
