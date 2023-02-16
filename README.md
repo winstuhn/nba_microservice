@@ -20,8 +20,11 @@ Instructions on how to request data from the service:
     example requests and responses:
     
     g ['Draymond Green']
+    
     g,s ['Draymond Green', '2013']
+    
     g,s,e ['Draymond Green', '2013', '2023']
+    
     g,s,e,p ['Draymond Green', '2013', '2023', 'F']
     g,s,e,p,2020 ['Draymond Green', '2013', '2023', 'F']
 
