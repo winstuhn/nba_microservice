@@ -26,6 +26,7 @@ Instructions on how to request data from the service:
     g,s,e ['Draymond Green', '2013', '2023']
     
     g,s,e,p ['Draymond Green', '2013', '2023', 'F']
+    
     g,s,e,p,2020 ['Draymond Green', '2013', '2023', 'F']
 
 4. Response will be made to the same text file: generate_player.txt
